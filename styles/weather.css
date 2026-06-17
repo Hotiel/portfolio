@@ -1,0 +1,56 @@
+
+.weather-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.weather-info {
+    max-height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.w-temp{
+    font-size: 2rem;
+    margin: 0;
+    overflow: hidden;
+    font-family: lato, sans-serif;
+}
+
+.w-city{
+    font-size: 1rem;
+    margin: 0;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: var(--accent-color);
+}
+
+.weather-icon-cont {
+    width: 50%;
+    height: 100%;
+    max-height: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.weather-icon {
+    color: var(--accent-color);
+    font-size: 3rem;
+    filter: drop-shadow(0px 0px 0px var(--accent-color));
+    animation: infinite 3s breathe;
+    }
+
+.weather-main:hover .weather-icon {
+    filter: drop-shadow(0px 0px 10px var(--accent-color));
+    transition: ease 1.5s;
+}
+
+
+
+
+

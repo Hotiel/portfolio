@@ -1,0 +1,22 @@
+.clockcontainer {
+    height: 100%;
+    color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 210px;
+}
+
+.clock {
+    max-height: 100%;
+    max-width: 100%;
+    font-family: ds-digital;
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.clockcontainer:hover .clock {
+    opacity: 1;
+    transition: ease 0.7s;
+}
