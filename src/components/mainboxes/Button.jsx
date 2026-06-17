@@ -40,7 +40,7 @@ useEffect(()=> {
 
     try {
         const res = await fetch(
-                "http://localhost:5000/counter", 
+                "https://portfolio-0d7v.onrender.com/counter", 
                 {method: "PATCH"}
             )
             const data = await res.json();
