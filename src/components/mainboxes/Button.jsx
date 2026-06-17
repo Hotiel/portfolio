@@ -18,7 +18,7 @@ useEffect(()=> {
     const getData = async() => {
         try{
             const loadData = await fetch (
-                "http://localhost:5000/counter", 
+                "https://portfolio-0d7v.onrender.com/counter", 
                 {method: "GET"}
             );    
                 const data = await loadData.json();
